@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css"; // Add styles for creativity
 import NavBar from "../Components/NavBar";
-import { FaUsers, FaConnectdevelop, FaHandshake } from "react-icons/fa"; // Import the icons
+// import { FaUsers, FaConnectdevelop, FaHandshake } from "react-icons/fa"; // Import the icons
 
 function Home() {
   const styl = {
@@ -20,23 +20,23 @@ function Home() {
 
         <section className="networking-section">
           <div className="networking-card">
-            <FaUsers style={{ fontSize: "50px", color: "rgb(0, 123, 255)" }} />
+            {/* <FaUsers style={{ fontSize: "50px", color: "rgb(0, 123, 255)" }} /> */}
             <h2>Join the Community</h2>
             <p>Connect with millions of people across the globe.</p>
           </div>
 
           <div className="networking-card">
-            <FaConnectdevelop
+            {/* <FaConnectdevelop
               style={{ fontSize: "50px", color: "rgb(0, 123, 255)" }}
-            />
+            /> */}
             <h2>Build Networks</h2>
             <p>Expand your professional and personal circles with ease.</p>
           </div>
 
           <div className="networking-card">
-            <FaHandshake
+            {/* <FaHandshake
               style={{ fontSize: "50px", color: "rgb(0, 123, 255)" }}
-            />
+            /> */}
             <h2>Collaborate & Grow</h2>
             <p>Share knowledge, work together, and grow stronger.</p>
           </div>
