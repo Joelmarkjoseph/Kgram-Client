@@ -8,6 +8,7 @@ import Signup from "../pages/Signup";
 import Dashboard from "../pages/Dashboard";
 
 function App() {
+  console.log("APP");
   return (
     <>
       <Router>
