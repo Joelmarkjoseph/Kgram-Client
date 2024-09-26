@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./NavafterLogin.css";
 import axios from "axios";
-import { BiColor } from "react-icons/bi";
+import { FaSomeIcon } from "react-icons/fa";
 
 const NavafterLogin = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
