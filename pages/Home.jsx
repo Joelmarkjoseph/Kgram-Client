@@ -1,7 +1,5 @@
 import React from "react";
-import { FaSomeIcon } from "react-icons/fa";
 import "./Home.css"; // Add styles for creativity
-
 import NavBar from "../Components/NavBar";
 
 function Home() {
