@@ -1,9 +1,8 @@
 import React from "react";
 import "./Home.css"; // Add styles for creativity
 import NavBar from "../Components/NavBar";
-import { FaUsers, FaConnectdevelop, FaHandshake } from "react-icons/fa"; // Import the icons
 
-function Home() {
+function LandingPage() {
   const styl = {
     color: "blue",
   };
@@ -50,4 +49,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default LandingPage;
